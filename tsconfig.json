@@ -20,6 +20,7 @@
     "jsx": "react",
     "resolveJsonModule": true,
     "esModuleInterop": true,
+    "sourceMap": true,
     "strict": true,
     "strictNullChecks": true,
     "noUnusedLocals": true,

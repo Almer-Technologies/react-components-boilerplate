@@ -18,13 +18,13 @@ const config = {
       file: pkg.main,
       format: 'cjs',
       exports: 'named',
-      sourcemap: false,
+      sourcemap: true,
     },
     {
       file: pkg.module,
       format: 'es',
       exports: 'named',
-      sourcemap: false,
+      sourcemap: true,
     },
   ],
   plugins: [
@@ -38,6 +38,7 @@ const config = {
     typescript({
       tsconfig: './tsconfig.json',
       typescript: typescriptEngine,
+      sourceMap: false,
       include: ['*.js+(|x)', '**/*.js+(|x)', '*.ts+(|x)', '**/*.ts+(|x)'],
       exclude: [
         'coverage',

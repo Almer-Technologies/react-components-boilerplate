@@ -1,18 +1,12 @@
+# React components template
+
+This is the default Almer components template (boilerplate). Based on the boilerplate provided by
+https://github.com/KaiHotz/react-rollup-boilerplate and adapted to account for the Almer company restrictions
+and default to an UNLICENSED license.
+
 # Getting started
 
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-
-```
-git clone git@github.com:KaiHotz/react-rollup-boilerplate.git
-cd react-rollup-boilerplate
-yarn install
-```
-
-#### Not Familiar with Git?
-
-Click [here](https://github.com/KaiHotz/react-rollup-boilerplate/archive/master.zip) to download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+Use the Github template feature to create a new repo from this template.
 
 ```
 yarn install
